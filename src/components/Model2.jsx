@@ -6,7 +6,7 @@ function Modal2() {
     <div className="w-[36rem]  h-[35rem] shadow-md bg-white  rounded-2xl overflow-hidden text-sm">
       <div className=" flex justify-between p-2 bg-slate-200">
         <h1 className=" font-semibold">See my available: today</h1>
-        <Mic />
+        <Mic className=" cursor-pointer" />
       </div>
       <div className=" space-y-4 p-4">
         <h1 className=" text-3xl font-bold">Available until 1 PM</h1>

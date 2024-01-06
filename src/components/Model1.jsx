@@ -10,10 +10,10 @@ function Modal1() {
           <Mail className="" /> <span className=" font-semibold">Coffee?</span>{" "}
           <span>Mail from Marisa Lu</span>
         </div>
-        <Mic />
+        <Mic className=" cursor-pointer" />
       </div>
       <div className=" space-y-4 p-4">
-        <div>
+        <div className=" flex justify-between">
           <h1 className=" text-3xl">Marisa Lu</h1>
           <span className=" text-slate-400">Just Now</span>
         </div>

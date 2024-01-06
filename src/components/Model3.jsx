@@ -8,9 +8,9 @@ function Modal3() {
       <div className=" flex justify-between p-2 bg-slate-200">
         <div className=" flex space-x-3">
           <MapPin className="" /> <span className=" font-semibold">Philz Coffee?</span>
-          <span className=" text-slate-400">Location</span>
+          <input className=" text-slate-400  outline-none bg-transparent" placeholder="Location"/>
         </div>
-        <Mic />
+        <Mic className=" cursor-pointer" />
       </div>
       <img src="images/map.png" alt="map" />
         <div className=" space-y-4 p-4">

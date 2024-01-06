@@ -34,4 +34,6 @@
     width: 100%;
   }
   
-  
+  .swiper-pagination-bullets {
+    display: none;
+}
