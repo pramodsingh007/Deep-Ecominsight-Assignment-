@@ -4,8 +4,8 @@ import CardsMenu from "./components/CardsMenu/CardsMenu";
 
 function App() {
   return (
-    <div className=" bg-[#b3afb8] h-screen p-4">
-      <div className=" flex justify-between">
+    <div className=" bg-[#b3afb8] h-screen ">
+      <div className=" flex justify-between p-4">
         <h1 className=" text-7xl text-slate-400 ">Review Inbox</h1>
         <p className="  text-slate-500">9:41</p>
       </div>
