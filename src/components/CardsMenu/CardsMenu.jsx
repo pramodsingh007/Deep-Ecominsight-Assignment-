@@ -12,6 +12,7 @@ function CardsMenu() {
   return (
     <div>
        <Swiper
+       
        breakpoints={{
         576: {
           
@@ -23,7 +24,9 @@ function CardsMenu() {
         },
       }}
         slidesPerView={2}
-        centeredSlides={true}
+        centeredSlides={false}
+        loop={true}
+        
         spaceBetween={100}
         pagination={{
           clickable: true,
