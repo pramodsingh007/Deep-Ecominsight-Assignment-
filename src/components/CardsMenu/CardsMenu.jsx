@@ -13,16 +13,6 @@ function CardsMenu() {
     <div>
        <Swiper
        
-       breakpoints={{
-        576: {
-          
-          slidesPerView: 1
-        },
-        768: {
-          
-          slidesPerView: 2
-        },
-      }}
         slidesPerView={2}
         centeredSlides={false}
         loop={true}
